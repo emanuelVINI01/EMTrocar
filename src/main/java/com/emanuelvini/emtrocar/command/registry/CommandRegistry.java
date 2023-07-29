@@ -1,6 +1,7 @@
 package com.emanuelvini.emtrocar.command.registry;
 
 import com.emanuelvini.emtrocar.EmTrocar;
+import com.emanuelvini.emtrocar.command.AcceptCommand;
 import com.emanuelvini.emtrocar.command.TradeCommand;
 import lombok.AllArgsConstructor;
 import lombok.val;
@@ -16,7 +17,7 @@ public class CommandRegistry {
 
         val bukkitFrame = new BukkitFrame(plugin);
 
-        bukkitFrame.registerCommands(new TradeCommand());
+        bukkitFrame.registerCommands(new TradeCommand(plugin.getTradeManager()), new AcceptCommand(plugin.getTradeManager()));
 
         bukkitFrame.getMessageHolder().setMessage(MessageType.INCORRECT_USAGE, "Uso: /{}");
     }
