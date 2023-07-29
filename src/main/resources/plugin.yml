@@ -1,0 +1,4 @@
+name: EMTrocar
+main: com.emanuelvini.emtrocar.EmTrocar
+version: 1.0
+description: "A plugin for ZappyCraft discord verification"
