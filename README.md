@@ -1,14 +1,23 @@
+> "Este projeto faz parte do meu início na programação. O código aqui é legado, reflete meus primeiros passos de aprendizado e não segue as práticas de arquitetura que utilizo hoje. Mantido aqui puramente por valor histórico e nostalgia."
+
 # EMTrocar
-A plugin for ZappyCraft discord verification, not tested.
 
-![Trade /trade start](https://img001.prntscr.com/file/img001/1DcGRdIKRrmhVEPdQbu2CQ.png)
-![Trade /aceitar](https://img001.prntscr.com/file/img001/VtTwHp7UR-eL2Fxe7HA1fg.png)
-![Trade /aceitar](https://img001.prntscr.com/file/img001/1rHd1FYxRO-gWbOL8J3qbg.png)
+## O que este projeto tentava resolver
 
-When you click in green glass, the trade will be confirmed.
+A plugin for ZappyCraft discord verification.
 
-Its a trade plugin, you do `/trade <player nick>`, open a menu and you put item, if target player accept, we put a item and open inventory to you, if accept the trade, give items to two players.
+Na prática, este repositório representa uma fase inicial de experimentação: código escrito para aprender, testar ideias, automatizar tarefas ou resolver demandas pontuais em comunidades e servidores. A prioridade na época era fazer funcionar, não desenhar uma arquitetura limpa.
 
-/aceitar <player nick> accept a trade.
+## Stack identificada
 
-Because I only was have **two hours** to make this, can have many bugs.
+Bukkit/Spigot, Java, KSP, Maven
+
+## Leitura do código
+
+- pom.xml identificado.
+- plugin.yml indica plugin Bukkit/Spigot.
+- diretório `src/` concentra a implementação principal.
+
+## Estado atual
+
+Este repositório não deve ser usado como referência do meu padrão técnico atual. Ele fica público para preservar a evolução: da fase de tentativa e erro com Java/Kotlin/Minecraft/Discord até os projetos atuais com sistemas web, APIs, dados e infraestrutura mais bem definidos.
